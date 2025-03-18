@@ -32,3 +32,6 @@
 *.app
 
 *.DS_Store
+.DS_Store
+cmake-build-debug/.DS_Store
+cmake-build-debug/CMakeFiles/.DS_Store
