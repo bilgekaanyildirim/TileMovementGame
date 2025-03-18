@@ -305,18 +305,6 @@ void MoveCell(vector<vector<char> > &matrix, const int &rowPos, const int &colum
     }
 }
 
-string getExecutablePath() {
-    char result[PATH_MAX];
-    ssize_t count = readlink("/proc/self/exe", result, PATH_MAX);
-    if (count != -1) {
-        result[count] = '\0';  // Null-terminate the string
-        string fullPath(result);
-        size_t lastSlash = fullPath.find_last_of("/\\");
-        return fullPath.substr(0, lastSlash); // Return directory path only
-    }
-    return ""; // Return empty if failed
-}
-
 int main()
 {
     string filename, line;
