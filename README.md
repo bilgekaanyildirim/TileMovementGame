@@ -1,4 +1,4 @@
-# Tile Movement Game - CS204 Homework 1
+# Tile Movement Game
 
 This repository contains my implementation of the **Tile Movement Game** for the **CS204 Advanced Programming** course.  
 The project involves working with **2D matrices using vectors**, handling **file I/O**, and implementing **basic game logic** in C++.
